@@ -1,4 +1,5 @@
-{"name": "WORIEM",
+{
+  "name": "WORIEM",
   "summary": "精品自用",
   "list": [
     {
@@ -9,5 +10,6 @@
       "auth": false,
       "version": 100
     }
-　　]
+　　
+           ]
 }
