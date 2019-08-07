@@ -1,0 +1,36 @@
+{
+  "name": "九桃小说",
+  "version": 100,
+  "category": 1,
+  "url": "https://m.9txs.com/",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["p.bookname"],
+    "author": ["p.author"],
+    "cover": ["img@attr->src"],
+    "summary": ["p.intro"],
+    "category": ["span.data"],
+"status":["meta[property=og:novel:status]@attr->content"],
+
+    "update": ["meta[property=og:novel:update_time]@attr->content"],
+    "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
+    "link": ["a@attr->href"],
+    "catalog": ["ul.action > li:nth-child(1) >a@attr->href"]
+  },
+  "catalog": {
+    "list": "ul.read > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "div.content"
+  },
+  "search": {
+    "link": "https://m.9txs.com/
+search.html@searchkey=searchKey${key}",
+    "list": "ul.list > li"
+  }
+}
