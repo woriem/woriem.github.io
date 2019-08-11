@@ -1,0 +1,19 @@
+{
+  "bookSourceGroup": "百科",
+  "bookSourceName": "萌娘百科◎",
+  "bookSourceUrl": "https://mzh.moegirl.org",
+  "enable": true,
+  "ruleBookContent": "@css:#content@html",
+  "ruleChapterList": "id.content",
+  "ruleChapterName": "id.section_0@text",
+  "ruleContentUrl": "",
+  "ruleSearchAuthor": "",
+  "ruleSearchIntroduce": "class.searchresult@text",
+  "ruleSearchKind": "class.mw-search-result-data@text# -|（|）",
+  "ruleSearchList": "class.mw-search-results@tag.li",
+  "ruleSearchName": "class.mw-search-result-heading@text",
+  "ruleSearchNoteUrl": "tag.a.0@href",
+  "ruleSearchUrl": "https://mzh.moegirl.org/index.php?search=searchKey&title=Special:%E6%90%9C%E7%B4%A2&profile=default&fulltext=1&searchToken=7taxh7t9fi3iq8db93d54gr96",
+  "serialNumber": 29,
+  "weight": 0
+}
