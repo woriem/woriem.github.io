@@ -1,0 +1,23 @@
+{
+  "bookSourceGroup": "影视",
+  "bookSourceName": "樱花动漫➲",
+  "bookSourceUrl": "http://m.imomoe.io",
+  "enable": true,
+  "ruleBookContent": "",
+  "ruleBookKind": "id.p-info@tag.p.2@tag.a@text&id.p-info@tag.p.1@tag.a@text",
+  "ruleChapterList": "class.mvlist.0@tag.li",
+  "ruleChapterName": "tag.a@text",
+  "ruleChapterUrl": "",
+  "ruleContentUrl": "tag.a@href",
+  "ruleContentUrlNext": "",
+  "ruleIntroduce": "class.txtDesc autoHeight@textNodes",
+  "ruleSearchAuthor": "class.am-gallery-desc@text",
+  "ruleSearchCoverUrl": "tag.img@data-original",
+  "ruleSearchKind": "",
+  "ruleSearchList": "class.am-gallery-item",
+  "ruleSearchName": "class.am-gallery-title@text",
+  "ruleSearchNoteUrl": "tag.a@href",
+  "ruleSearchUrl": "http://m.imomoe.io/search.asp?searchword=searchKey|char=gbk",
+  "serialNumber": 12,
+  "weight": 0
+}
